@@ -466,7 +466,7 @@ Firestoreのコレクション案。
 
 ## 推奨する初期決定
 
-- アプリ名: 仮で「EchoPop」
+- アプリ名: 仮で「FakeSNS」
 - 技術: Expo + React Native + TypeScript + Firebase
 - BOTコメント: 最初はテンプレート生成
 - MVP: 完全ソロSNS体験として作る
