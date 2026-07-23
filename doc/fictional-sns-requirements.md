@@ -4,7 +4,7 @@
 
 ユーザーが投稿すると、多数のBOT/AIユーザーからいいね・コメント・通知が届き、人気インフルエンサーのような反応を体験できるモバイルSNSアプリを作る。
 
-Android/iOSの両方に対応するため、React Nativeで開発する。
+React Native（Expo）で開発する。**対象プラットフォームは iOS のみ**（Android は対象外）。
 
 ## 重要な前提
 
@@ -248,7 +248,7 @@ X/Twitter風の情報設計:
 
 ### フロントエンド
 
-- React Native
+- React Native（**iOS のみ**）
 - Expo
 - TypeScript
 - React Navigation
@@ -256,6 +256,7 @@ X/Twitter風の情報設計:
 - TanStack Query
 - Expo Image Picker
 - Expo Notifications
+- 実機／シミュレータ確認は iOS を前提とする
 
 ### バックエンド
 
@@ -467,8 +468,9 @@ Firestoreのコレクション案。
 ## 推奨する初期決定
 
 - アプリ名: 仮で「FakeSNS」
-- 技術: Expo + React Native + TypeScript + Firebase
+- 技術: Expo + React Native + TypeScript + Firebase（**iOS のみ**）
 - BOTコメント: 最初はテンプレート生成
 - MVP: 完全ソロSNS体験として作る
 - 通知: アプリ内通知をMVP、プッシュ通知はPhase 3
 - デザイン: X風の操作感を参考にしたオリジナルUI
+- プラットフォーム: Android 対応は将来検討。当面は iOS に集中する
